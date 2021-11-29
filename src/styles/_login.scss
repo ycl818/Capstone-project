@@ -1,0 +1,42 @@
+form {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  letter-spacing:2px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-bottom: 20px;
+    input {
+      padding: 8px 6px;
+      font-size: 1em;
+      color: blue;
+      width: 100%;
+    }
+  }
+  p {
+    color: red
+  }
+  .loginbtn{
+   background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+   border-radius: 2px;
+   padding: 0;
+   border: none;
+   padding: 10px 25px;
+   cursor: pointer;
+   transition:0.5s ease;
+   letter-spacing:2px;
+  }
+  .loginbtn span {
+    color: white
+  }
+  .loginbtn:hover{
+  background-color: #ff9156;
+  transition: 0.3s;
+  }
+}
+
+

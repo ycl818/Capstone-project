@@ -1,0 +1,57 @@
+nav {
+  background-color: rgb(56, 106, 212);
+  .welcome {
+      color: white;
+      letter-spacing: 2px;
+      position: absolute;
+      left: 0;
+      top: 10px;
+      font-size: larger;
+  }
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+    
+    li {
+      display: flex;
+      a {
+        padding: 0.5rem 1rem;
+        font-size: 1.5rem;
+        color: white;
+        transition: all 0.25s ease;
+      }
+      a:hover{
+        background-color: rgb(98, 135, 192);
+        color:yellow
+      }
+      .logoutbtn {
+        background-color: #f0ecfc;
+        background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
+        line-height: 30x;
+        padding: 8px 16px;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        height: auto;
+      
+       
+        span {
+          position: relative;
+          font-size: 1.2rem;
+          color: #fff;
+          margin: 2px;
+          padding: 2px;
+          display: block;
+          transition: all 0.25s ease;
+        }
+        span:hover {
+           color: #c797eb;
+        }
+        
+    
+    }
+  }
+}
+
+}

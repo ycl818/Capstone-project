@@ -1,0 +1,54 @@
+.markText {
+  color: #b98853;
+}
+.container {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  .autoinput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2 {
+      text-align: center;
+      color: #ff9156
+      //color: transparent;
+    }
+    input {
+      padding: 5px;
+      margin: 10px;
+      border-color: #ff9156
+
+    }
+  }
+  .modebtn input {
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(231, 128, 235);
+  }
+  .des{
+    color: #555;
+    background-color: #faa374;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .des:hover{
+    background-color: #f3b99a;
+     transition: 0.3s;
+  }
+}
+
+
+
+.googlemapindex {
+  z-index: 1;
+}
+
+// .automCompleteSearch {
+//   input {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+// }

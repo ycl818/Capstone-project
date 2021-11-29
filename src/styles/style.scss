@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+
+  button {
+    padding: 0.25rem 0.25rem;
+    font-size: 2rem;
+    border: none;
+    background-color: #8797a8;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+
+//Scrollbar
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(106, 178, 236);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(72, 83, 233);
+}
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture";
+@import "./login";
+@import "./map";
