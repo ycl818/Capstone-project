@@ -8,7 +8,8 @@ const Homepage = () => {
   let [data, setData] = useState(null);
   let [page, setPage] = useState(1);
   let [currentSearch, setCurrentSearch] = useState("");
-  const auth = "563492ad6f91700001000001cd899c335aea4bf29dd2b9393c8c387d";
+  const auth = "563492ad6f917000010000016b41c525d3b54b06917648c4bb8cf716";
+  //const auth = "563492ad6f91700001000001cd899c335aea4bf29dd2b9393c8c387d";
   const initialURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
   const searchURL = `https://api.pexels.com/v1/search?query=${currentSearch}&per_page=15&page=1`;
 
