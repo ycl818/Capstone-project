@@ -14,6 +14,12 @@ A Login / Register page that required user to login to use ther further features
 * Login page
     * connected with Firebase to ensure the user data is in the database.
     * authentication the user email and password are correct. 
+ 
+## Demo: 
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-login.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-signup.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-passwordWrong.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-afterlogin.PNG)
 
 ## Pexel API
 A page for searching any pictures in Pexels.com's API.
@@ -21,6 +27,10 @@ A page for searching any pictures in Pexels.com's API.
 * Clicked Load more button to get more pictures.
 * Each picture shows the photo's arthur and the link of the photo.
 * You can downloaded the photo in the new browser after you clicked the Download.
+
+## Demo
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-pictures.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-pictures_loadmore.PNG)
 ---
 ## Google Map API
 A lot of useStates and useEffects in this Google Map page.
@@ -32,4 +42,11 @@ A lot of useStates and useEffects in this Google Map page.
    * Debounce feature to prevent showing result continuously.
    * shows the most relevent results by the words that user types
    * clicked the target will automatically move the map center to the target places and show the banks near the place.
+
+## Demo
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-map.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-map-hybrid.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-map-search.PNG)
+![](https://github.com/ycl818/Capstone-project/blob/main/image/20220104-map-after_search.PNG)
+
 
