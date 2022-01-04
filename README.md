@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+React project with Firebase Authentication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a cooperative project with others. Following are the details I did.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+## Firebase Authentication
+A Login / Register page that required user to login to use ther further features.
+* Password authentication
+* Warning message
+    * showed the warning if the email type is wrong
+    * showed the waring if the passward less than 6 words
+* Login page
+    * connected with Firebase to ensure the user data is in the database.
+    * authentication the user email and password are correct. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Pexel API
+A page for searching any pictures in Pexels.com's API.
+* Loaded 12 pictures in a time.
+* Clicked Load more button to get more pictures.
+* Each picture shows the photo's arthur and the link of the photo.
+* You can downloaded the photo in the new browser after you clicked the Download.
+---
+## Google Map API
+A lot of useStates and useEffects in this Google Map page.
+* Default IP adress is my location.
+* It shows all the banks and ATM in the radious of 1.5km near me.
+* move the screen freedomly to see the banks location in the other places.
+*  Hybrid button to see the diffrent map types, there are road map and satellite version.
+*  Autocomplete searching.
+   * Debounce feature to prevent showing result continuously.
+   * shows the most relevent results by the words that user types
+   * clicked the target will automatically move the map center to the target places and show the banks near the place.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
