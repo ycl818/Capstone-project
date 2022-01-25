@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import { ReactComponent as ReactLogo } from "../images/undraw_revenue_re_2bmg.svg"
+import { ReactComponent as ReactLogo } from "../images/undraw_revenue_re_2bmg.svg";
 import { ReactComponent as ReactLogo2 } from "../images/2.svg";
 import logo3 from "../images/Refund.gif";
-import Goochart from "../components/Goochart"
-
+import Goochart from "../components/Goochart";
 
 const Home = () => {
   // const auth = "563492ad6f917000010000016b41c525d3b54b06917648c4bb8cf716";
@@ -24,14 +23,13 @@ const Home = () => {
   //   console.log(parsedData);
   //   //setVideo(parsedData.videos)
   // };
- 
-  
+
   return (
     <div>
-      <h1>Exchange yout Currency</h1>
+      <h1>Exchange your Currency</h1>
       <ReactLogo className="reactlogo" style={{ height: "20vmin" }} />
       <ReactLogo2 className="reactlogo" style={{ height: "20vmin" }} />
-      <img src={logo3} alt="no img"/>
+      <img src={logo3} alt="no img" />
       <Goochart />
     </div>
   );
